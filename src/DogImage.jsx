@@ -1,9 +1,5 @@
-// @ts-check
-
-const DogImage = ({ url }) => {
+export function DogImage({ imageUrl }) { 
   return (
-    <img src={url} alt="Shiba" className="dog-image" />
-  )
+    <img src={imageUrl} alt="Dog" className="dog-image" />
+  );
 }
-
-export default DogImage
